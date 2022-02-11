@@ -276,7 +276,7 @@
   width: 95%;
   max-width: 120rem;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .imagenes {
   width: 50%;
