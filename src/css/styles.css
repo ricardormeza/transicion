@@ -1,4 +1,4 @@
-@keyframes animate-block {
+@keyframes animacion-credito {
   0% {
     transform: rotateY(90deg) rotateX(90deg);
     opacity: 0;
@@ -41,7 +41,6 @@
   width: 80vmin;
   border-radius: 5vmin;
   overflow: hidden;
-  /* background-image: url(https://picsum.photos/id/193/800/800); */
   background-image: url(../img/credito-grupal_1.png);
   background-size: 80vmin 80vmin;
 }
@@ -53,7 +52,7 @@
   background-size: 81vmin 81vmin;
   transform: rotate(90deg);
   opacity: 0;
-  animation: animate-block 6s ease infinite;
+  animation: animacion-credito 6s ease infinite;
   animation-fill-mode: forwards;
   transform-origin: 0 50%;
 }
