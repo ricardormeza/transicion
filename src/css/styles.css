@@ -31,17 +31,22 @@
     transform: rotateY(90deg) rotateX(0deg);
     opacity: 0;
   }
+  /* 80% {
+    transform: rotateY(90deg) rotateX(0deg);
+    background-image: url(../img/credito-grupal_3.png);
+    opacity: 0;
+  } */
 }
 .creditos {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   height: 80vmin;
   width: 80vmin;
   border-radius: 5vmin;
   overflow: hidden;
-  background-image: url(../img/credito-grupal_1.png);
+  background-image: url(../img/credito-grupal_1a.png);
   background-size: 80vmin 80vmin;
 }
 .creditos > .block {
@@ -272,13 +277,4 @@
   background-position: calc((1 - 0) * 80vmin / 5 - 1px) calc(-0 * 80vmin / 5 - 1px);
   animation-delay: 0 / 10s;
 }
-.contenedor {
-  width: 95%;
-  max-width: 120rem;
-  margin: 0 auto;
-  /* border: 1px solid red; */
-}
-.imagenes {
-  width: 50%;
-  height: 600px;
-}
+
